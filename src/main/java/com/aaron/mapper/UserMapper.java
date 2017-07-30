@@ -3,6 +3,7 @@ package com.aaron.mapper;
 import com.aaron.common.base.BaseMapper;
 import com.aaron.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 import java.io.Serializable;
 
