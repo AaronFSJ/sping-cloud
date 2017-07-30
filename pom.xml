@@ -63,7 +63,46 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<resources>
+
+			<resource>
+				<directory>src/main/resources</directory>
+				<!-- 资源根目录排除各环境的配置，防止在生成目录中多余其它目录 -->
+				<excludes>
+					<exclude>environment/dev/*</exclude>
+					<exclude>environment/test/*</exclude>
+					<exclude>environment/prod/*</exclude>
+					<exclude>environment/yml/*</exclude>
+					<exclude>*.sql</exclude>
+				</excludes>
+			</resource>
+			<resource>
+				<directory>src/main/resources/environment/${profiles.active}</directory>
+			</resource>
+		</resources>
 	</build>
+
+
+
+	<profiles>
+		<profile>
+			<id>dev</id><!-- 本地开发环境 -->
+			<properties><profiles.active>dev</profiles.active></properties>
+		</profile>
+		<profile>
+			<id>test</id><!-- 测试环境 -->
+			<properties><profiles.active>test</profiles.active></properties>
+		</profile>
+		<profile>
+			<id>prod</id> <!-- 生产环境 -->
+			<properties><profiles.active>prod</profiles.active></properties>
+		</profile>
+		<profile>
+			<id>yml</id> <!-- 用application.yml方式 -->
+			<properties><profiles.active>yml</profiles.active></properties>
+			<activation><activeByDefault>true</activeByDefault></activation>
+		</profile>
+	</profiles>
 
 
 </project>

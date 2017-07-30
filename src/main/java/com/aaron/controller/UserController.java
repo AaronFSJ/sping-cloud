@@ -22,4 +22,5 @@ public class UserController {
         User user = userService.selectById(id);
         return user;
     }
+
 }
