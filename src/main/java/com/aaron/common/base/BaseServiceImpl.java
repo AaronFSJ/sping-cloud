@@ -13,9 +13,6 @@ public class BaseServiceImpl<T,PK extends Serializable> {
     @Autowired
     private BaseMapper<T,PK> mapper;
 
-//    public BaseMapper<T,PK> getMapper() {
-//        return mapper;
-//    }
     public int insert(T t){
         return mapper.insert(t);
     }
