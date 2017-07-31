@@ -16,8 +16,8 @@ import org.apache.velocity.app.VelocityEngine;
 /**
  * <br>
  * <b>功能：</b>详细的功能描述<br>
- * <b>作者：</b>罗泽军<br>
- * <b>日期：</b> 2011-7-22 <br>
+ * <b>作者：</b>Aaron<br>
+ * <b>日期：</b> 2017-07-31 10:51 <br>
  * <b>更新者：</b><br>
  * <b>日期：</b> <br>
  * <b>更新内容：</b><br>
@@ -60,7 +60,7 @@ public class CommonPageParser {
 	static{
 		try{
 			//获取文件模板根路径
-			String  templateBasePath = getRootPath()+"/src/main/webapp/template" ;
+			String  templateBasePath = getRootPath()+"/template" ;
 			Properties properties = new Properties();
 			properties.setProperty(Velocity.RESOURCE_LOADER,"file");
 			properties.setProperty("file.resource.loader.description","Velocity File Resource Loader");
@@ -81,8 +81,8 @@ public class CommonPageParser {
 	/**
 	 * <br>
 	 * <b>功能：</b>生成页面文件<br>
-	 * <b>作者：</b>罗泽军<br>
-	 * <b>日期：</b> 2011-7-23 <br>
+	 * <b>作者：</b>Aaron<br>
+	 * <b>日期：</b> 2017-07-31 10:53 <br>
 	 * @param context 内容上下文
 	 * @param templateName 模板文件路径（相对路径）article\\article_main.html
 	 */

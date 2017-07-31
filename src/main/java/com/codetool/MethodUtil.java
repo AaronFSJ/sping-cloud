@@ -294,9 +294,9 @@ public class MethodUtil{
 	 * 
 	 * @function:
 	 * @return
-	 * @author wolf
+	 * @author aaron
 	 * @QQ 405645010
-	 * @date:2011-11-2 下午02:23:09
+	 * @date:2017-07-32 10:48
 	 * @version :2.0
 	 * @description :yyyyMMhh 年月日
 	 */
@@ -538,8 +538,8 @@ public class MethodUtil{
     * 
     * <br>
     * <b>功能：</b>uid<br>
-    * <b>作者：</b>肖财高<br>
-    * <b>日期：</b> 2012-2-13 <br>
+    * <b>作者：</b>Aaron<br>
+    * <b>日期：</b> 2017-07-31 10:48 <br>
     * @return 12位日期加7为随机整数
     */
    public String getUid(){

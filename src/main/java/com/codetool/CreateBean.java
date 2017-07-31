@@ -19,8 +19,8 @@ import java.util.Map;
  * 
  * <br>
  * <b>功能：</b>详细的功能描述<br>
- * <b>作者：</b>唐志圣<br>
- * <b>日期：</b> 2011-12-16 <br>
+ * <b>作者：</b>Aaron<br>
+ * <b>日期：</b> 2017-07-31 10:45 <br>
  * <b>版权所有：<b>版权所有(C) 2014，QQ 335489277<br>
  */
 public class CreateBean {
@@ -132,8 +132,8 @@ public class CreateBean {
      * 
      * <br>
      * <b>功能：</b>详细的功能描述<br>
-     * <b>作者：</b>唐志圣<br>
-     * <b>日期：</b> 2011-12-20 <br>
+     * <b>作者：</b>Aaron<br>
+     * <b>日期：</b> 2017-07-31 10:45 <br>
      * @param tableName
      * @return 
      * @throws SQLException
@@ -222,8 +222,8 @@ public class CreateBean {
      * 
      * <br>
      * <b>功能：</b>表名转换成类名 每_首字母大写<br>
-     * <b>作者：</b>唐志圣<br>
-     * <b>日期：</b> 2014-06-18 <br>
+     * <b>作者：</b>Aaron<br>
+     * <b>日期：</b> 2017-07-31 10:45 <br>
      * @param tableName
      * @return
      */
@@ -264,8 +264,8 @@ public class CreateBean {
      * 
      * <br>
      * <b>功能：</b>创建文件<br>
-     * <b>作者：</b>唐志圣<br>
-     * <b>日期：</b> 2014-06-18 <br>
+     * <b>作者：</b>Aaron<br>
+     * <b>日期：</b> 2017-07-31 10:45 <br>
      * @param path
      * @param fileName
      * @param str
@@ -281,8 +281,8 @@ public class CreateBean {
     * 
     * <br>
     * <b>功能：</b>生成sql语句<br>
-    * <b>作者：</b>唐志圣<br>
-    * <b>日期：</b> 2014-06-18 <br>
+    * <b>作者：</b>Aaron<br>
+    * <b>日期：</b> 2017-07-31 10:45 <br>
     * @param tableName
     * @throws Exception
     */
@@ -427,8 +427,8 @@ public class CreateBean {
      * 
      * <br>
      * <b>功能：</b>获取所有列名字<br>
-     * <b>作者：</b>唐志圣<br>
-     * <b>日期：</b> 2014-06-18 <br>
+     * <b>作者：</b>Aaron<br>
+     * <b>日期：</b> 2017-07-31 10:45 <br>
      * @param tableName
      * @return
      * @throws SQLException

@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  * 日期工具类
-* Copyright  chenrui All right reserved.
+* Copyright  aaron All right reserved.
 * @ClassName: DateUtils 
 * @author Aaron
 * @since 2014-2-20 上午11:18:58 
@@ -69,7 +69,7 @@ public class DateUtils {
 	
 	/**
 	 * 获取当前时间字符串
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getCurrTimeForString  
 	* @author Aaron
 	* @since 2014-2-20 上午11:17:45
@@ -83,7 +83,7 @@ public class DateUtils {
 	
 	/**
 	 * 获取当前日期字符串
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getCurrTimeForString  
 	* @author Aaron
 	* @since 2014-2-20 上午11:17:45
@@ -97,7 +97,7 @@ public class DateUtils {
 	
 	/**
 	 * 格式化日期成字符串
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: formatDate  
 	* @author Aaron
 	* @since 2014-2-20 下午1:43:29
@@ -114,7 +114,7 @@ public class DateUtils {
 	}
 	/**
 	 * 将格式日期的字符串解析成Date
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: parseDate  
 	* @author Aaron
 	* @since 2014-2-20 下午1:43:49
@@ -136,7 +136,7 @@ public class DateUtils {
 	}
 	/**
 	 * 计算两个时间的时间差
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getIntervalForTwoDate  
 	* @author Aaron
 	* @since 2014-2-20 上午11:29:35
@@ -163,7 +163,7 @@ public class DateUtils {
 	
 	/**
 	 * 按calendar的类型获取时间数
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getDateField  
 	* @author Aaron
 	* @since 2014-2-20 上午11:32:49
@@ -180,7 +180,7 @@ public class DateUtils {
 	}
 	/**
 	 * 计算两个时间的相差年数
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getYearsBetweenDate  
 	* @author Aaron
 	* @since 2014-2-20 上午11:35:44
@@ -197,7 +197,7 @@ public class DateUtils {
 	}
 	/**
 	 * 计算两个时间相差的月数
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getMonthsBetweenDate  
 	* @author Aaron
 	* @since 2014-2-20 上午11:35:48
@@ -218,7 +218,7 @@ public class DateUtils {
 	}
 	/**
 	 * 计算两个时间相差的周数
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getWeeksBetweenDate  
 	* @author Aaron
 	* @since 2014-2-20 上午11:35:57
@@ -235,7 +235,7 @@ public class DateUtils {
 	}
 	/**
 	 * 计算两个时间相差的天数
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getDaysBetweenDate  
 	* @author Aaron
 	* @since 2014-2-20 上午11:36:01
@@ -253,7 +253,7 @@ public class DateUtils {
 
 	/**
 	 * 获取date年后(前)的amount年的第一天的开始时间
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getSpecficYearStart  
 	* @author Aaron
 	* @since 2014-2-20 上午11:40:19
@@ -272,7 +272,7 @@ public class DateUtils {
 	}
 	/**
 	 * 获取date年后的amount年的最后一天的终止时间
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getSpecficYearEnd  
 	* @author Aaron
 	* @since 2014-2-20 上午11:41:43
@@ -292,7 +292,7 @@ public class DateUtils {
 	}
 	/**
 	 * 获取date月后的amount月的第一天的开始时间
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getSpecficMonthStart  
 	* @author Aaron
 	* @since 2014-2-20 上午11:41:50
@@ -312,7 +312,7 @@ public class DateUtils {
 	}
 	/**
 	 * 获取当前自然月后的amount月的最后一天的终止时间
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getSpecficMonthEnd  
 	* @author Aaron
 	* @since 2014-2-20 上午11:41:54
@@ -331,7 +331,7 @@ public class DateUtils {
 	}
 	/**
 	 * 获取date周后的第amount周的开始时间（这里星期一为一周的开始）
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getSpecficWeekStart  
 	* @author Aaron
 	* @since 2014-2-20 上午11:41:59
@@ -351,7 +351,7 @@ public class DateUtils {
 	}
 	/**
 	 *  获取date周后的第amount周的最后时间（这里星期日为一周的最后一天）
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getSpecficWeekEnd  
 	* @author Aaron
 	* @since 2014-2-20 上午11:44:20
@@ -371,7 +371,7 @@ public class DateUtils {
 	}
 	/**
 	 * 得到指定日期的一天的的最后时刻23:59:59
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getFinallyDate  
 	* @author Aaron
 	* @since 2014-2-20 上午11:44:31
@@ -388,7 +388,7 @@ public class DateUtils {
 	}
 	/**
 	 * 得到指定日期的一天的开始时刻00:00:00
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getStartDate  
 	* @author Aaron
 	* @since 2014-2-20 上午11:44:36
@@ -404,7 +404,7 @@ public class DateUtils {
 	}
 	/**
 	 * 拿到当前月的最后一天
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: getLastDayOfMonth  
 	* @author Aaron
 	* @since 2014-2-20 上午11:48:51
@@ -420,7 +420,7 @@ public class DateUtils {
 	
 /**
  * 判断传入的日期是否是周末
-* Copyright  chenrui All right reserved.
+* Copyright  aaron All right reserved.
 * @Title: isWeek  
 * @author Aaron
 * @since 2014-4-30 下午1:28:26
@@ -443,7 +443,7 @@ public class DateUtils {
 	
 	/**
 	 * 将未指定格式的日期字符串转化成
-	* Copyright  chenrui All right reserved.
+	* Copyright  aaron All right reserved.
 	* @Title: parseStringToDate  
 	* @author Aaron
 	* @since 2014-2-20 下午2:09:41
@@ -520,7 +520,7 @@ public class DateUtils {
  
  /**
   * 两个时间相差的秒数
- * Copyright  jiesai All right reserved.
+ * Copyright  aaron All right reserved.
  * @Title: getSecondDiff  
  * @author Aaron
  * @since 2014-5-26 下午1:36:51
@@ -584,7 +584,7 @@ public class DateUtils {
     
     /**
      * 获取指定日期的开始时间0点
-    * Copyright  chenrui All right reserved.
+    * Copyright  aaron All right reserved.
     * @Title: getDateFirstTime  
     * Aaron Aaron
     * @since 2016年9月9日 上午10:23:11
@@ -606,7 +606,7 @@ public class DateUtils {
     
     /**
      * 获取指定日期的结束时间23点
-    * Copyright  chenrui All right reserved.
+    * Copyright  aaron All right reserved.
     * @Title: getDateLastTime  
     * @author Aaron
     * @since 2016年9月9日 上午10:23:35
