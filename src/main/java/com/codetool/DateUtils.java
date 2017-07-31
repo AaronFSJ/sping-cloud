@@ -1,3 +1,5 @@
+package com.codetool;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -279,8 +281,7 @@ public class DateUtils {
 	* @return  
 	* @return Date    返回类型  
 	* @throws 
-	* Description:  // 获取date年后的amount年的最后一天的终止时间
-	* Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
 	 */
 	public static Date getSpecficYearEnd(Date date,int amount) {
 		Date temp = getStartDate(getSpecficYearStart(date,amount + 1));
@@ -300,8 +301,7 @@ public class DateUtils {
 	* @return  
 	* @return Date    返回类型  
 	* @throws 
-	* Description:  // 用于详细说明此程序文件完成的主要功能
-	* Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
 	 */
 	public static Date getSpecficMonthStart(Date date,int amount) {
 		Calendar cal = Calendar.getInstance();
@@ -321,8 +321,7 @@ public class DateUtils {
 	* @return  
 	* @return Date    返回类型  
 	* @throws 
-	* Description:  // 用于详细说明此程序文件完成的主要功能
-	* Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
 	 */
 	public static Date getSpecficMonthEnd(Date date,int amount) {
 		Calendar cal = Calendar.getInstance();
@@ -361,8 +360,7 @@ public class DateUtils {
 	* @return  
 	* @return Date    返回类型  
 	* @throws 
-	* Description:  // 用于详细说明此程序文件完成的主要功能
-	* Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
 	 */
 	public static Date getSpecficWeekEnd(Date date,int amount) {
 		Calendar cal = Calendar.getInstance();
@@ -381,8 +379,7 @@ public class DateUtils {
 	* @return  
 	* @return Date    返回类型  
 	* @throws 
-	* Description:  // 用于详细说明此程序文件完成的主要功能
-	* Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
 	 */
 	public static Date getFinallyDate(Date date) {
 		String temp = formatDate(date,YMD);
@@ -431,8 +428,7 @@ public class DateUtils {
 * @return  
 * @return boolean    返回类型  
 * @throws 
-* Description:  // 用于详细说明此程序文件完成的主要功能
-* Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
  */
 	public static boolean isWeek(Date currentDate) {  
 		int currentDay = 9  ;  
@@ -510,7 +506,7 @@ public class DateUtils {
     
     /** 
     * 获得指定日期的几天 
-    * @param specifiedDay 
+    * @param
     * @return 
     */ 
     public static Date getSpecifiedDayAfter(Date specifiedDate,int number){ 
@@ -533,8 +529,7 @@ public class DateUtils {
  * @return  
  * @return Long    返回类型  
  * @throws 
- * Description:  // 用于详细说明此程序文件完成的主要功能
- * Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
   */
     public static Long getSecondDiff(Date startTime,Date endTime){
         long start = startTime.getTime();
@@ -595,8 +590,7 @@ public class DateUtils {
     * @since 2016年9月9日 上午10:23:11
     * @return String    返回类型  
     * @throws 
-    * Description:  // 用于详细说明此程序文件完成的主要功能
-    * Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
      */
     public static String getDateFirstTime(Date d){
     	String time="";
@@ -618,8 +612,7 @@ public class DateUtils {
     * @since 2016年9月9日 上午10:23:35
     * @return String    返回类型  
     * @throws 
-    * Description:  // 用于详细说明此程序文件完成的主要功能
-    * Modify History: // 修改历史记录列表，每条修改记录应包括修改日期、修改者及内容简述
+
      */
     public static String getDateLastTime(Date d){
     	d =parseDate(formatDate(d, DateUtils.Y_M_D), DateUtils.Y_M_D);

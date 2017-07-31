@@ -1,3 +1,5 @@
+package com.codetool;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -84,7 +86,7 @@ public class CommonPageParser {
 	 * @param context 内容上下文
 	 * @param templateName 模板文件路径（相对路径）article\\article_main.html
 	 */
-	public static void WriterPage(VelocityContext context,String templateName,String fileDirPath,String targetFile){
+	public static void WriterPage(VelocityContext context, String templateName, String fileDirPath, String targetFile){
 		try{
 			String path = fileDirPath+targetFile;
 			path = path.replace("\\", "/");

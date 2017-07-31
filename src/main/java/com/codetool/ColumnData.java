@@ -1,3 +1,5 @@
+package com.codetool;
+
 /**
  * 表字段类
  * @author Administrator

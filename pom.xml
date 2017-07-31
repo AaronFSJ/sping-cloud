@@ -106,15 +106,19 @@
 		<profile>
 			<id>dev</id><!-- 本地开发环境 -->
 			<properties><profiles.active>dev</profiles.active></properties>
-			<activation><activeByDefault>true</activeByDefault></activation>
 		</profile>
 		<profile>
 			<id>test</id><!-- 测试环境 -->
 			<properties><profiles.active>test</profiles.active></properties>
+			<activation><activeByDefault>true</activeByDefault></activation>
 		</profile>
 		<profile>
 			<id>prod</id> <!-- 生产环境 -->
 			<properties><profiles.active>prod</profiles.active></properties>
+		</profile>
+		<profile>
+			<id>yml</id> <!-- yml配置文件方式环境 -->
+			<properties><profiles.active>yml</profiles.active></properties>
 		</profile>
 	</profiles>
 
