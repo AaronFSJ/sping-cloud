@@ -5,20 +5,20 @@ import java.math.BigDecimal;
 /**
  * Created by Aaron on 2017/6/18.
  */
-public class User {
+public class User  {
 
-    private Long id;
+    private Long Id;
     private String username;
     private String name;
     private Integer age;
     private BigDecimal blance;
 
     public Long getId() {
-        return id;
+        return Id;
     }
 
     public void setId(Long id) {
-        this.id = id;
+        Id = id;
     }
 
     public String getUsername() {

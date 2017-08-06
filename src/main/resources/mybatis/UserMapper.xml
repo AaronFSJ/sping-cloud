@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.aaron.mapper.UserMapper" >
-    <!-- Result Map-->
+    <!-- Result Map -->
     <resultMap id="BaseResultMap" type="com.aaron.entity.User" >
         <result column="id" property="id"/>
         <result column="username" property="username"/>
@@ -20,6 +20,11 @@
     <select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Long">
         select *
         from user where id = #{id}
+    </select>
+    <select id="getAll" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List"/>
+        from user
     </select>
 </mapper>
 
